@@ -1,0 +1,80 @@
+ .container {
+  min-height: 100vh;
+  padding: 0 0.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+}
+ 
+.main {
+  
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+
+ 
+.grid {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 1rem;
+}
+
+@font-face {
+  font-family: "MonoPixel-Awesome";
+  color: #fff;
+  src: local("MonoPixel-Awesome"),
+    url("./fonts/MonoPixelAwesome.ttf") format("truetype");
+
+
+}
+.marker {
+  position: absolute;
+  width: 60px;
+  left: 172px;
+  top: -20px;
+  z-index: 2;
+}
+
+.wheel {
+  width: auto;
+  height: auto;
+  align-self: center;
+  justify-self: center;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+.wheelImg {
+  max-width: 500px;
+  height: auto;
+}
+
